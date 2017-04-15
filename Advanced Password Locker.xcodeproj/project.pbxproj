@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE151E2C1EA11B8700569DA5 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151E2B1EA11B8700569DA5 /* AuthenticationManager.swift */; };
+		CE151E2E1EA12A0700569DA5 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151E2D1EA12A0700569DA5 /* AuthenticationViewController.swift */; };
+		CE151E301EA1D99C00569DA5 /* APL_SPLASH_IMAGE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE151E2F1EA1D99C00569DA5 /* APL_SPLASH_IMAGE.jpg */; };
+		CE151E321EA1EA6A00569DA5 /* SetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE151E311EA1EA6A00569DA5 /* SetPasswordViewController.swift */; };
 		CE5510C31E7A843200B8DA84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5510C21E7A843200B8DA84 /* AppDelegate.swift */; };
-		CE5510C51E7A843200B8DA84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5510C41E7A843200B8DA84 /* ViewController.swift */; };
+		CE5510C51E7A843200B8DA84 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5510C41E7A843200B8DA84 /* BaseViewController.swift */; };
 		CE5510C81E7A843200B8DA84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5510C61E7A843200B8DA84 /* Main.storyboard */; };
 		CE5510CB1E7A843200B8DA84 /* Advanced_Password_Locker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE5510C91E7A843200B8DA84 /* Advanced_Password_Locker.xcdatamodeld */; };
 		CE5510CD1E7A843200B8DA84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5510CC1E7A843200B8DA84 /* Assets.xcassets */; };
@@ -16,9 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE151E2B1EA11B8700569DA5 /* AuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		CE151E2D1EA12A0700569DA5 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		CE151E2F1EA1D99C00569DA5 /* APL_SPLASH_IMAGE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = APL_SPLASH_IMAGE.jpg; path = Images/APL_SPLASH_IMAGE.jpg; sourceTree = "<group>"; };
+		CE151E311EA1EA6A00569DA5 /* SetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetPasswordViewController.swift; sourceTree = "<group>"; };
 		CE5510BF1E7A843200B8DA84 /* Advanced Password Locker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Advanced Password Locker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE5510C21E7A843200B8DA84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE5510C41E7A843200B8DA84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE5510C41E7A843200B8DA84 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CE5510C71E7A843200B8DA84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE5510CA1E7A843200B8DA84 /* Advanced_Password_Locker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Advanced_Password_Locker.xcdatamodel; sourceTree = "<group>"; };
 		CE5510CC1E7A843200B8DA84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,13 +64,17 @@
 		CE5510C11E7A843200B8DA84 /* Advanced Password Locker */ = {
 			isa = PBXGroup;
 			children = (
+				CE151E2F1EA1D99C00569DA5 /* APL_SPLASH_IMAGE.jpg */,
 				CE5510C21E7A843200B8DA84 /* AppDelegate.swift */,
-				CE5510C41E7A843200B8DA84 /* ViewController.swift */,
+				CE5510C41E7A843200B8DA84 /* BaseViewController.swift */,
 				CE5510C61E7A843200B8DA84 /* Main.storyboard */,
 				CE5510CC1E7A843200B8DA84 /* Assets.xcassets */,
 				CE5510CE1E7A843200B8DA84 /* LaunchScreen.storyboard */,
 				CE5510D11E7A843200B8DA84 /* Info.plist */,
 				CE5510C91E7A843200B8DA84 /* Advanced_Password_Locker.xcdatamodeld */,
+				CE151E2B1EA11B8700569DA5 /* AuthenticationManager.swift */,
+				CE151E2D1EA12A0700569DA5 /* AuthenticationViewController.swift */,
+				CE151E311EA1EA6A00569DA5 /* SetPasswordViewController.swift */,
 			);
 			path = "Advanced Password Locker";
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE151E301EA1D99C00569DA5 /* APL_SPLASH_IMAGE.jpg in Resources */,
 				CE5510D01E7A843200B8DA84 /* LaunchScreen.storyboard in Resources */,
 				CE5510CD1E7A843200B8DA84 /* Assets.xcassets in Resources */,
 				CE5510C81E7A843200B8DA84 /* Main.storyboard in Resources */,
@@ -141,7 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5510CB1E7A843200B8DA84 /* Advanced_Password_Locker.xcdatamodeld in Sources */,
-				CE5510C51E7A843200B8DA84 /* ViewController.swift in Sources */,
+				CE151E2C1EA11B8700569DA5 /* AuthenticationManager.swift in Sources */,
+				CE151E321EA1EA6A00569DA5 /* SetPasswordViewController.swift in Sources */,
+				CE151E2E1EA12A0700569DA5 /* AuthenticationViewController.swift in Sources */,
+				CE5510C51E7A843200B8DA84 /* BaseViewController.swift in Sources */,
 				CE5510C31E7A843200B8DA84 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +322,7 @@
 				CE5510D61E7A843200B8DA84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
