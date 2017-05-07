@@ -12,16 +12,28 @@ class AuthenticationViewController: UIPageViewController, UIPageViewControllerDa
 
     var pageControllerIndex=0
     var maxPageViewController=2
+    
+    override init(transitionStyle style: UIPageViewControllerTransitionStyle, navigationOrientation: UIPageViewControllerNavigationOrientation, options: [String : Any]? = nil)
+    {
+        super.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: options)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
 
+
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.dataSource=self
         self.setViewControllers([getViewController(WithIndex: 0)!] as [UIViewController], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
         
         // Do any additional setup after loading the view.
     }
 
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -71,11 +83,11 @@ class AuthenticationViewController: UIPageViewController, UIPageViewControllerDa
             viewController = (self.storyboard?.instantiateViewController(withIdentifier:"SetPasswordView"))!
             if(index==0)
             {
-                viewController.view.backgroundColor=UIColor.green
+//                viewController.view.backgroundColor=UIColor.green
             }
             else
             {
-                viewController.view.backgroundColor=UIColor.red
+//                viewController.view.backgroundColor=UIColor.red
             }
             
             return viewController

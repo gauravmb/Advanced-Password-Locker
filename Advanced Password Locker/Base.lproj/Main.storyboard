@@ -40,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-844" y="-543"/>
+            <point key="canvasLocation" x="-1916" y="-1757"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ij8-6W-OpI">
@@ -59,12 +59,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Qx-K7-kOe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1712" y="-684"/>
+            <point key="canvasLocation" x="-4652" y="-1179"/>
         </scene>
         <!--Authentication View Controller-->
         <scene sceneID="Rrd-8s-MNW">
             <objects>
-                <viewController id="ZXX-uH-dcD" customClass="AuthenticationViewController" customModule="Advanced_Password_Locker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="flipHorizontal" id="ZXX-uH-dcD" customClass="AuthenticationViewController" customModule="Advanced_Password_Locker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a2a-Ig-X6H"/>
                         <viewControllerLayoutGuide type="bottom" id="6ab-87-Z1y"/>
@@ -81,12 +81,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fFG-pt-TIT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16" y="273"/>
+            <point key="canvasLocation" x="-226" y="-2152"/>
         </scene>
         <!--Set Password View Controller-->
         <scene sceneID="pdW-WY-xQo">
             <objects>
-                <viewController storyboardIdentifier="SetPasswordView" id="CpP-cm-XVD" customClass="SetPasswordViewController" customModule="Advanced_Password_Locker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SetPasswordView" modalTransitionStyle="flipHorizontal" id="CpP-cm-XVD" customClass="SetPasswordViewController" customModule="Advanced_Password_Locker" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ngj-aS-GtF"/>
                         <viewControllerLayoutGuide type="bottom" id="JzL-D1-Oet"/>
@@ -94,12 +94,11 @@
                     <view key="view" contentMode="scaleToFill" id="9Xe-uF-dN2">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.75050905280000002" blue="0.28217045000000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XBU-js-gJd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-126" y="917"/>
+            <point key="canvasLocation" x="57" y="-79"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OFh-vJ-8RM">
@@ -112,12 +111,11 @@
                     <view key="view" contentMode="scaleToFill" id="RcO-rK-XGF">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1346"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IE0-lX-Gek" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999" y="-42"/>
+            <point key="canvasLocation" x="1263" y="-1650"/>
         </scene>
     </scenes>
 </document>
